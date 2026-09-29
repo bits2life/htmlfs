@@ -5,7 +5,7 @@ templates and include fragments. It uses only the standard library and serves
 through `http.FileServer` unchanged.
 
 ```go
-import "github.com/bits2life/htmlfs"
+import "go.bits2life.com/htmlfs"
 
 site := htmlfs.New(os.DirFS("public"),
 	htmlfs.Templates("templates"),

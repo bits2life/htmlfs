@@ -1,3 +1,3 @@
-module github.com/bits2life/htmlfs
+module go.bits2life.com/htmlfs
 
 go 1.22
